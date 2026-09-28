@@ -1,4 +1,4 @@
-## 🐍📌 #2 — Python Basics
+## 🐍📌 #1 — Python Basics
 
 Welcome to the second entry of my learning journey! In this post, I dove into the core fundamentals of Python syntax, data types, and how Python interprets basic information under the hood.
 
