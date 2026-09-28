@@ -22,3 +22,5 @@ print(type(2)) # Type: 'int'
 print(type(1 + 3j)) # Type: 'complex'
 print(type(0.2)) # Type: 'float'
 print(type(True)) # Type: 'bool'
+
+print(type(print(my_string_variable, my_int_to_str_variable, my_bool_variable))) # Type: 'NoneType'
