@@ -43,7 +43,7 @@ print()
 print("----Exercise 2----")
 
 print("----Print only the name column----")
-print(df_hackers.columns.to_list())
+print(df_hackers["Name"].to_string(index = False))
 print()
 
 print("----Then print only the Skill column----")
@@ -180,4 +180,44 @@ print("----Exercise 9----")
 df_hackers["Wanted"] = df_hackers["Reputation"] > 90
 print(df_hackers)
 print()
+
+# 10. Final Mission — Take down CTOS
+# Starting with your complete DataFrame, answer these using Pandas:
+# 1. Who's the oldest hacker?
+# 2. Who has the highest Skill?
+# 3. Which hackers have a Reputation below 90?
+# 4. Which hackers are from Chicago and have a Skill above 9.0?
+# 5. How many hackers are in the database?
+# 6. How many hackers are wanted?
+# 7. Create a DataFrame containing only the name, city, and skill of hackers with Skill ≥ 9.0.
+
+print("----Exercise 10----")
+
+print("----Who's the oldest hacker?----")
+print(df_hackers.nlargest(1, "Age"))
+print()
+
+print("----Who has the highest skill?----")
+print(df_hackers.nlargest(1, "Skill"))
+print()
+
+print("----Which hackers have a Reputation below 90?----")
+print(df_hackers[df_hackers["Reputation"] < 90])
+print()
+
+print("----Which hackers are from Chicago and have a Skill above 9.0?----")
+print(df_hackers[(df_hackers["City"] == "Chicago") & (df_hackers["Skill"] > 9.0)])
+print()
+
+print("----How many hackers are in the database?----")
+print(df_hackers.shape[0])
+print()
+
+print("----How many hackers are wanted?----")
+print(df_hackers[df_hackers["Wanted"] == True].shape[0])
+print()
+
+print("----Create a DataFrame containing only the name, city, and skill of hackers with Skill ≥ 9.0----")
+best_hackers = df_hackers[df_hackers["Skill"] >= 9.0][["Name", "City", "Skill"]]
+print(best_hackers)
 
