@@ -11,7 +11,7 @@ print()
 # 2. Print the frist 5 rows
 
 print("----Exercise 2----")
-print(characters.iloc[[0,1,2]])
+print(characters.iloc[[0,1,2,3,4]])
 print()
 
 # 3. Print only Name, Game, and Level
