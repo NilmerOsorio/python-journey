@@ -1,0 +1,169 @@
+
+[
+    {
+        "Product": "ChatGPT",
+        "Company": "OpenAI",
+        "Category": "AI",
+        "Release_Year": 2022,
+        "Price": 20,
+        "Rating": 4.8,
+        "Users_Millions": 800,
+        "AI_Powered": true,
+        "Platform": "Web"
+    },
+    {
+        "Product": "Claude",
+        "Company": "Anthropic",
+        "Category": "AI",
+        "Release_Year": 2023,
+        "Price": 20,
+        "Rating": 4.7,
+        "Users_Millions": 50,
+        "AI_Powered": true,
+        "Platform": "Web"
+    },
+    {
+        "Product": "Gemini",
+        "Company": "Google",
+        "Category": "AI",
+        "Release_Year": 2023,
+        "Price": 20,
+        "Rating": 4.6,
+        "Users_Millions": 400,
+        "AI_Powered": true,
+        "Platform": "Web"
+    },
+    {
+        "Product": "RTX 5090",
+        "Company": "NVIDIA",
+        "Category": "GPU",
+        "Release_Year": 2025,
+        "Price": 1999,
+        "Rating": 4.7,
+        "Users_Millions": 2.5,
+        "AI_Powered": true,
+        "Platform": "PC"
+    },
+    {
+        "Product": "RTX 4070 Super",
+        "Company": "NVIDIA",
+        "Category": "GPU",
+        "Release_Year": 2024,
+        "Price": 599,
+        "Rating": 4.6,
+        "Users_Millions": 8.2,
+        "AI_Powered": true,
+        "Platform": "PC"
+    },
+    {
+        "Product": "PlayStation 5",
+        "Company": "Sony",
+        "Category": "Gaming",
+        "Release_Year": 2020,
+        "Price": 499,
+        "Rating": 4.8,
+        "Users_Millions": 65,
+        "AI_Powered": false,
+        "Platform": "Console"
+    },
+    {
+        "Product": "Xbox Series X",
+        "Company": "Microsoft",
+        "Category": "Gaming",
+        "Release_Year": 2020,
+        "Price": 499,
+        "Rating": 4.7,
+        "Users_Millions": 30,
+        "AI_Powered": false,
+        "Platform": "Console"
+    },
+    {
+        "Product": "Steam Deck OLED",
+        "Company": "Valve",
+        "Category": "Gaming",
+        "Release_Year": 2023,
+        "Price": 549,
+        "Rating": 4.8,
+        "Users_Millions": 4.5,
+        "AI_Powered": false,
+        "Platform": "Handheld"
+    },
+    {
+        "Product": "MacBook Pro M4",
+        "Company": "Apple",
+        "Category": "Laptop",
+        "Release_Year": 2024,
+        "Price": 1599,
+        "Rating": 4.9,
+        "Users_Millions": 12,
+        "AI_Powered": true,
+        "Platform": "macOS"
+    },
+    {
+        "Product": "ThinkPad X1 Carbon",
+        "Company": "Lenovo",
+        "Category": "Laptop",
+        "Release_Year": 2024,
+        "Price": 1399,
+        "Rating": 4.6,
+        "Users_Millions": 6.5,
+        "AI_Powered": false,
+        "Platform": "Windows"
+    },
+    {
+        "Product": "iPhone 17 Pro",
+        "Company": "Apple",
+        "Category": "Smartphone",
+        "Release_Year": 2025,
+        "Price": 1199,
+        "Rating": 4.8,
+        "Users_Millions": 18,
+        "AI_Powered": true,
+        "Platform": "iOS"
+    },
+    {
+        "Product": "Galaxy S25 Ultra",
+        "Company": "Samsung",
+        "Category": "Smartphone",
+        "Release_Year": 2025,
+        "Price": 1299,
+        "Rating": 4.7,
+        "Users_Millions": 15,
+        "AI_Powered": true,
+        "Platform": "Android"
+    },
+    {
+        "Product": "Meta Quest 3",
+        "Company": "Meta",
+        "Category": "VR",
+        "Release_Year": 2023,
+        "Price": 499,
+        "Rating": 4.5,
+        "Users_Millions": 7,
+        "AI_Powered": true,
+        "Platform": "VR"
+    },
+    {
+        "Product": "Raspberry Pi 5",
+        "Company": "Raspberry Pi",
+        "Category": "Computer",
+        "Release_Year": 2023,
+        "Price": 80,
+        "Rating": 4.8,
+        "Users_Millions": 10,
+        "AI_Powered": false,
+        "Platform": "Linux"
+    },
+    {
+        "Product": "Cyberpunk 2077",
+        "Company": "CD Projekt Red",
+        "Category": "Gaming",
+        "Release_Year": 2020,
+        "Price": 59,
+        "Rating": 4.4,
+        "Users_Millions": 30,
+        "AI_Powered": false,
+        "Platform": "PC"
+    }
+]
+
