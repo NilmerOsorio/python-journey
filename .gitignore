@@ -7,3 +7,6 @@ __pycache__/
 
 # Pycharm folder
 .idea/
+
+# Gesture-tracking session exports
+gesture_camera.json
