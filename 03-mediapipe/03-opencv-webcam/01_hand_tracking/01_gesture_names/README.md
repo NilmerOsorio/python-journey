@@ -88,8 +88,6 @@ Each detected frame produces `frame`, `handedness`, `index_x`, `index_y`, `raise
 
 ## ✅ Validation and Limitations
 
-Validation on **20 November 2026** used the shared environment:
-
 | Check | Actual result |
 |---|---|
 | Syntax, imports and dependency consistency | Passed; no installation required. |
