@@ -8,5 +8,9 @@ __pycache__/
 # Pycharm folder
 .idea/
 
+# Hand-tracking exports from the repository root and the exercise directory
+/hand_camera.json
+/03-mediapipe/03-opencv-webcam/01_hand_tracking/hand_camera.json
+
 # Gesture-tracking session exports
 gesture_camera.json
