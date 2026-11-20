@@ -99,10 +99,6 @@ Each detected frame produces `frame`, `handedness`, `index_x`, `index_y`, `raise
 | Both documented launch commands | Reached model initialisation, then exited with the clear camera-unavailable message and status `1`. |
 | Complete entry point with a simulated camera | Passed from both launch directories using the real model; verified resizing, the fixed export destination, cleanup and status `0`. All label widths also fit the preview. |
 
-**Live verification remains outstanding:** camera `0` could not be opened in the validation session. Real-hand recognition, visible landmark alignment and physical keyboard/window controls still need checking on an accessible webcam. Synthetic checks verify the processing logic, not recognition accuracy on a person.
-
-The vertical comparison works best with an upright hand. Rotation, occlusion, motion, poor lighting or a hand too small in the image can change the count. Labels update from each detection without temporal smoothing, so they may flicker; only the fingertip ring is smoothed. The application detects one hand and does not interpret a sign language.
-
 ## 🔧 Troubleshooting
 
 | Symptom | What to check |
